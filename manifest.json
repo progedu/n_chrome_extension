@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "ZEN Study の教材を単体で表示する拡張",
-  "description": "この拡張は ZEN Study の教材を単体で表示させることができます。",
+  "name": "ZEN Study の教材をフルスクリーン表示する拡張",
+  "description": "この拡張は ZEN Study の教材をフルスクリーン表示させることができます。",
   "version": "3.0",
   "action": {
     "default_icon": {
