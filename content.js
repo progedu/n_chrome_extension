@@ -1,7 +1,7 @@
 'use strict';
 
 // https://www.nnn.ed.nico/courses/{courseId}/chapters/{chapterId}/{resourceType}/{sectionId}
-const regexp = new RegExp(String.raw`^https://www\.nnn\.ed\.nico/courses/(?<courseId>\d+)/chapters/(?<chapterId>\d+)/(?<resourceType>\w+)/(?<sectionId>\d+)`);
+const regexp = /^https:\/\/www\.nnn\.ed\.nico\/courses\/(?<courseId>\d+)\/chapters\/(?<chapterId>\d+)\/(?<resourceType>\w+)\/(?<sectionId>\d+)/;
 const matches = location.href.match(regexp);
 
 if (matches) {
