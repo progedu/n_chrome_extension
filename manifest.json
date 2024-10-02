@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ZEN Study の教材を単体で表示する拡張",
   "description": "この拡張は ZEN Study の教材を単体で表示させることができます。",
-  "version": "1.0",
+  "version": "3.0",
   "action": {
     "default_icon": {
       "16": "images/zen_icon16.png",
